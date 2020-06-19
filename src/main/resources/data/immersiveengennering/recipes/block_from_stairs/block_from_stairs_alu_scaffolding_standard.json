@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ss",
+    "ss"
+  ],
+  "key": {
+    "s": {
+      "item": "immersiveengineering:stairs_alu_scaffolding_standard"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:alu_scaffolding_standard",
+    "count": 3
+  }
+}

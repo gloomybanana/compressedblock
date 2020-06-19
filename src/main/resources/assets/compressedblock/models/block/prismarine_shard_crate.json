@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "compressedblock:block/prismarine_shard_crate_top",
+    "bottom": "compressedblock:block/prismarine_shard_crate_bottom",
+    "side": "compressedblock:block/prismarine_shard_crate"
+  }
+}

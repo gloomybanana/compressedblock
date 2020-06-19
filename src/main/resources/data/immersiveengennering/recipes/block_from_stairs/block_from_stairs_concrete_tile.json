@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ss",
+    "ss"
+  ],
+  "key": {
+    "s": {
+      "item": "immersiveengineering:stairs_concrete_tile"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:concrete_tile",
+    "count": 3
+  }
+}

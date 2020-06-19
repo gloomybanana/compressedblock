@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "compressedblock:flint_block"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:gunpowder",
+			"chance": 0.1,
+			"count": 1
+		},
+		{
+			"item": "minecraft:blaze_powder",
+			"count": 1,
+			"chance": 0.05
+		}
+	],
+	"processingTime": 250
+}

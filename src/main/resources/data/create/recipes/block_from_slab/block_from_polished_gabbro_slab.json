@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_gabbro_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:polished_gabbro_slab"
+    }
+  },
+  "result": {
+    "item": "create:polished_gabbro",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "compressedblock:cod_crate",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type":"mekanism:compressing",
+  "itemInput":{"ingredient":{"item": "compressedblock:coal_ball"}},
+  "gasInput":{"amount":1,"gas":"mekanism:liquid_osmium"},
+  "output":{"item":"compressedblock:coal_block"}
+}

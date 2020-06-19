@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dolomite_cobblestone_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:dolomite_cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "create:dolomite_cobblestone",
+    "count": 1
+  }
+}

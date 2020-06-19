@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "compressedblock:coal_ball"
+    }
+  },
+  "result": {
+    "item": "compressedblock:coal_block",
+    "count": 1
+  }
+}

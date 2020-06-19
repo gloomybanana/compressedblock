@@ -1,0 +1,24 @@
+{
+  "item.compressedblock.coal_ball": "Coal Ball",
+  "item.compressedblock.coal_block": "Coal Block",
+  "item.compressedblock.coal_chunk": "Coal Chunk",
+  "item.compressedblock.coal_dust": "Coal Dust",
+
+  "block.compressedblock.beetroot_seeds_sack": "Beetroot Seeds Sack",
+  "block.compressedblock.blaze_rod_block": "Blaze Rod Block",
+  "block.compressedblock.bone_sack": "Bone Sack",
+  "block.compressedblock.cod_crate": "Cod Crate",
+  "block.compressedblock.egg_crate": "Egg Crate",
+  "block.compressedblock.ender_pear_block": "Ender Pear Block",
+  "block.compressedblock.feather_sack": "Feather Sack",
+  "block.compressedblock.flint_block": "Flint Block",
+  "block.compressedblock.glowstone_block": "Glowstone Block",
+  "block.compressedblock.paper_sack": "Paper box",
+  "block.compressedblock.prismarine_crystals_crate": "Prismarine Crystals Crate",
+  "block.compressedblock.prismarine_shard_crate": "Prismarine Shard Crate",
+  "block.compressedblock.rotten_flesh_block": "Rotten Flesh Block",
+  "block.compressedblock.salmon_crate": "Salmon Crate",
+  "block.compressedblock.spider_eye_sack": "Spider Eye Sack",
+  "block.compressedblock.string_sack": "String Roll",
+  "block.compressedblock.wheat_seeds_sack": "Wheat Seeds Sack"
+}

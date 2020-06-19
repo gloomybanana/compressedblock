@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fancy_diorite_bricks_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:fancy_diorite_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "create:fancy_diorite_bricks",
+    "count": 1
+  }
+}

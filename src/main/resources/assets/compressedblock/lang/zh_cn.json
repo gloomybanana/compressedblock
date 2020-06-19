@@ -1,0 +1,24 @@
+{
+  "item.compressedblock.coal_ball": "煤球",
+  "item.compressedblock.coal_block": "压缩煤球",
+  "item.compressedblock.coal_chunk": "煤炭块",
+  "item.compressedblock.coal_dust": "煤粉",
+
+  "block.compressedblock.beetroot_seeds_sack": "袋装甜菜种子",
+  "block.compressedblock.blaze_rod_block": "打包烈焰棒",
+  "block.compressedblock.bone_sack": "袋装骨头",
+  "block.compressedblock.cod_crate": "箱装生鳕鱼",
+  "block.compressedblock.egg_crate": "箱装鸡蛋",
+  "block.compressedblock.ender_pear_block": "末影珍珠块",
+  "block.compressedblock.feather_sack": "袋装羽毛",
+  "block.compressedblock.flint_block": "燧石块",
+  "block.compressedblock.glowstone_block": "萤石块",
+  "block.compressedblock.paper_sack": "箱装纸",
+  "block.compressedblock.prismarine_crystals_crate": "箱装海晶砂砾",
+  "block.compressedblock.prismarine_shard_crate": "箱装海晶碎片",
+  "block.compressedblock.rotten_flesh_block": "腐肉块",
+  "block.compressedblock.salmon_crate": "箱装生鲑鱼",
+  "block.compressedblock.spider_eye_sack": "袋装蜘蛛眼",
+  "block.compressedblock.string_sack": "线卷",
+  "block.compressedblock.wheat_seeds_sack": "袋装小麦种子"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:polished_jasper_slab"
+    }
+  },
+  "result": {
+    "item": "quark:polished_jasper",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "jasper"
+    }
+  ]
+} 

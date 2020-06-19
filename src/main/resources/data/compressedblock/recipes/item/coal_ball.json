@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressedblock:coal_dust"
+    },
+    "T": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "compressedblock:coal_ball",
+    "count": 1
+  }
+}

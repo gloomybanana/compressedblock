@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:snow_bricks_stairs"
+    }
+  },
+  "result": {
+    "item": "quark:snow_bricks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "snow_bricks"
+    }
+  ]
+} 

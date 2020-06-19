@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:polished_marble_slab"
+    }
+  },
+  "result": {
+    "item": "quark:polished_marble",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "marble"
+    }
+  ]
+} 

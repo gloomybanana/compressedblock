@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "compressedblock:wheat_seeds_sack",
+    "count": 1
+  }
+}

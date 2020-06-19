@@ -1,0 +1,16 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "compressedblock:coal_dust",
+      "chance": 1,
+      "count": 1
+    }
+  ],
+  "processingTime": 100
+}

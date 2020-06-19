@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "compressedblock:coal_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "compressedblock:coal_block",
+      "count": 1
+    }
+  ]
+}

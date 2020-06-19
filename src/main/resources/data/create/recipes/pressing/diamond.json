@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "compressedblock:coal_chunk"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  ]
+}

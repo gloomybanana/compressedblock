@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_scoria_bricks_stairs",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "create:dark_scoria_bricks_stairs"
+    }
+  },
+  "result": {
+    "item": "create:dark_scoria_bricks",
+    "count": 3
+  }
+}

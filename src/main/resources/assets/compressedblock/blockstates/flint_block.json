@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "compressedblock:block/flint_block" }
+  }
+}

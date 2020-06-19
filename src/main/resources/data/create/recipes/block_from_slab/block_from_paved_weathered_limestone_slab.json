@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paved_weathered_limestone_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:paved_weathered_limestone_slab"
+    }
+  },
+  "result": {
+    "item": "create:paved_weathered_limestone",
+    "count": 1
+  }
+}

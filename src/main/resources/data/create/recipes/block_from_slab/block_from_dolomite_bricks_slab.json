@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dolomite_bricks_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:dolomite_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "create:dolomite_bricks",
+    "count": 1
+  }
+}

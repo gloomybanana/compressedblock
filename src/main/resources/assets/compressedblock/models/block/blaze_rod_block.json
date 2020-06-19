@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "compressedblock:block/blaze_rod_block_top",
+    "side": "compressedblock:block/blaze_rod_block"
+  }
+}

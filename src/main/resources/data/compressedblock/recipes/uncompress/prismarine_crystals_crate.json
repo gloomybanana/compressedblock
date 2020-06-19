@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:prismarine_crystals_crate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 9
+  }
+}

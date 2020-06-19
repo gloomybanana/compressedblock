@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paved_gabbro_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:paved_gabbro_slab"
+    }
+  },
+  "result": {
+    "item": "create:paved_gabbro",
+    "count": 1
+  }
+}

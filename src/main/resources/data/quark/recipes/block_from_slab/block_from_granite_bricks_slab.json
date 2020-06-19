@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:granite_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "quark:granite_bricks",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "more_stone_variants"
+    }
+  ]
+} 

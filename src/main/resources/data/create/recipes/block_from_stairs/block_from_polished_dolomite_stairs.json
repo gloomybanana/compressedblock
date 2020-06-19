@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_dolomite_stairs",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "create:polished_dolomite_stairs"
+    }
+  },
+  "result": {
+    "item": "create:polished_dolomite",
+    "count": 3
+  }
+}

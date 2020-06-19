@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": {
+    "item": "immersiveengineering:mold_plate"
+  },
+  "result": {
+    "item": "compressedblock:coal_block"
+  },
+  "input": {
+    "item": "compressedblock:coal_ball"
+  },
+  "energy": 2400
+}

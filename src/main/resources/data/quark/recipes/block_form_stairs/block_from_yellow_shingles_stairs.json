@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:yellow_shingles_stairs"
+    }
+  },
+  "result": {
+    "item": "quark:yellow_shingles",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "shingles"
+    }
+  ]
+} 

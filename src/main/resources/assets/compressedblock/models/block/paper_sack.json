@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "compressedblock:block/paper_sack_top",
+    "north": "compressedblock:block/paper_sack1",
+    "south": "compressedblock:block/paper_sack1",
+    "east": "compressedblock:block/paper_sack2",
+    "west": "compressedblock:block/paper_sack2",
+    "down": "compressedblock:block/paper_sack_bottom",
+    "particle": "compressedblock:block/paper_sack1"
+  }
+}

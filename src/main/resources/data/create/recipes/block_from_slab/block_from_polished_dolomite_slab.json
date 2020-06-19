@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_dolomite_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:polished_dolomite_slab"
+    }
+  },
+  "result": {
+    "item": "create:polished_dolomite",
+    "count": 1
+  }
+}

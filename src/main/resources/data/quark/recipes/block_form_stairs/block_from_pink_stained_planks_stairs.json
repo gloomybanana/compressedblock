@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:pink_stained_planks_stairs"
+    }
+  },
+  "result": {
+    "item": "quark:pink_stained_planks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "stained_planks"
+    }
+  ]
+} 

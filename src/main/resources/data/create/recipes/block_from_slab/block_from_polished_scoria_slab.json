@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_scoria_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:polished_scoria_sla"
+    }
+  },
+  "result": {
+    "item": "create:polished_scoriab",
+    "count": 1
+  }
+}

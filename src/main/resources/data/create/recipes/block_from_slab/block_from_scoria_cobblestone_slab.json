@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "scoria_cobblestone_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:scoria_cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "create:scoria_cobblestone",
+    "count": 1
+  }
+}

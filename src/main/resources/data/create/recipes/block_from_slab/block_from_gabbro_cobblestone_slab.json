@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gabbro_cobblestone_slab",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "create:gabbro_cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "create:gabbro_cobblestone",
+    "count": 1
+  }
+}
