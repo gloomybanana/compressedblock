@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "compressedblock:coal_dust"
+      "tag": "forge:dusts/coal"
     },
     "T": {
       "item": "minecraft:flint"

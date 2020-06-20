@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:bonded_cyan_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 9
+  }
+}

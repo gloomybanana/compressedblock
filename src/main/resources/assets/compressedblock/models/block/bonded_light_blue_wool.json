@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "compressedblock:block/bonded_light_blue_wool"
+  }
+}

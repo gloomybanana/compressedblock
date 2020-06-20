@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:red_dye_sack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_dye",
+    "count": 9
+  }
+}

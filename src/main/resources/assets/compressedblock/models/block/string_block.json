@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "compressedblock:block/string_block_top",
+    "side": "compressedblock:block/string_block"
+  }
+}
+

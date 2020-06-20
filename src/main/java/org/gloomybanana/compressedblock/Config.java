@@ -44,7 +44,7 @@ public class Config {
         enableRottenFleshBlock = COMMON_BUILDER.comment("").define("enableRottenFleshBlock", true);
         enableSalmonCrate = COMMON_BUILDER.comment("").define("enableSalmonCrate", true);
         enableSpiderEyeSack = COMMON_BUILDER.comment("").define("enableSpiderEyeSack", true);
-        enableStringSack = COMMON_BUILDER.comment("").define("enableStringSack", true);
+        enableStringSack = COMMON_BUILDER.comment("").define("enableStringBlock", true);
         enableWheatSeedsSack = COMMON_BUILDER.comment("").define("enableWheatSeedsSack", true);
         enableDiamondRecips = COMMON_BUILDER.comment("if false,the coal dust,coal ball,coal block and coal chunk will be removed.").define("enableDiamondRecips", true);
 

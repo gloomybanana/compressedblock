@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#T#",
+    "TTT",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "item": "compressedblock:prismarine_shard_crate"
+    },
+    "T": {
+      "item": "compressedblock:prismarine_crystals_crate"
+    }
+  },
+  "result": {
+    "item": "minecraft:sea_lantern",
+    "count": 9
+  }
+}

@@ -21,8 +21,8 @@ public class CompressedBlock {
 
     public CompressedBlock(){
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
 
+//        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
 //        MinecraftForge.EVENT_BUS.register(this);
     }
 

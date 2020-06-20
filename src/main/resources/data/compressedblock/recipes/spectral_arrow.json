@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "T#T",
+    " T "
+  ],
+  "key": {
+    "#": {
+      "item": "compressedblock:arrow_sack"
+    },
+    "T": {
+      "item": "compressedblock:glowstone_dust_sack"
+    }
+  },
+  "result": {
+    "item": "compressedblock:spectral_arrow_sack",
+    "count": 2
+  }
+}

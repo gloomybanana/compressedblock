@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:bonded_purple_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 9
+  }
+}

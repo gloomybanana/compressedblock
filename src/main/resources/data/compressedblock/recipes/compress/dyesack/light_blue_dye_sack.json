@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dyes/light_blue"
+    }
+  },
+  "result": {
+    "item": "compressedblock:light_blue_dye_sack",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:blue_dye_sack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye",
+    "count": 9
+  }
+}

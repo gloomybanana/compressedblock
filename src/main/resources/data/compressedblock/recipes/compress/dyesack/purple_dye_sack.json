@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dyes/purple"
+    }
+  },
+  "result": {
+    "item": "compressedblock:purple_dye_sack",
+    "count": 1
+  }
+}

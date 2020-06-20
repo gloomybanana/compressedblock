@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressedblock:lime_dye_sack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 9
+  }
+}

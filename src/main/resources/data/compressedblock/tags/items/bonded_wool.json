@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "compressedblock:bonded_black_wool",
+    "compressedblock:bonded_blue_wool",
+    "compressedblock:bonded_brown_wool",
+    "compressedblock:bonded_cyan_wool",
+    "compressedblock:bonded_gray_wool",
+    "compressedblock:bonded_green_wool",
+    "compressedblock:bonded_light_blue_wool",
+    "compressedblock:bonded_light_gray_wool",
+    "compressedblock:bonded_lime_wool",
+    "compressedblock:bonded_magenta_wool",
+    "compressedblock:bonded_orange_wool",
+    "compressedblock:bonded_pink_wool",
+    "compressedblock:bonded_purple_wool",
+    "compressedblock:bonded_red_wool",
+    "compressedblock:bonded_white_wool",
+    "compressedblock:bonded_yellow_wool"
+  ]
+}

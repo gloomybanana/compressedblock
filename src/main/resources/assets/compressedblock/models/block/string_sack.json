@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "compressedblock:block/string_sack_top",
-    "side": "compressedblock:block/string_sack"
-  }
-}
-
