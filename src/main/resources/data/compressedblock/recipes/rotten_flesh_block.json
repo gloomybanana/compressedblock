@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "compressedblock:ender_pearl_block"
+      "item": "compressedblock:stench_block"
     }
   ],
   "result": {
-    "item": "minecraft:ender_pearl",
+    "item": "compressedblock:rotten_flesh_block",
     "count": 9
   }
 }

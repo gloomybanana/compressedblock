@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "compressedblock:ender_pearl_block"
+          "name": "compressedblock:stench_block"
         }
       ],
       "conditions": [

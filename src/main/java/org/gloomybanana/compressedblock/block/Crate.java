@@ -4,13 +4,11 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class EnderPearBlock extends Block{
-    public EnderPearBlock(){
+public class Crate extends Block {
+    public Crate() {
         super(Block.Properties
-                .create(Material.GLASS)
+                .create(Material.WOOD)
                 .hardnessAndResistance(1.5F)
-                .sound(SoundType.GLASS)
-                .lightValue(7));
-        this.setRegistryName("ender_pear_block");
+                .sound(SoundType.WOOD));
     }
 }

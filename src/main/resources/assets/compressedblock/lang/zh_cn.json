@@ -11,7 +11,7 @@
   "block.compressedblock.bone_sack": "袋装骨头",
   "block.compressedblock.cod_crate": "箱装生鳕鱼",
   "block.compressedblock.egg_crate": "箱装鸡蛋",
-  "block.compressedblock.ender_pear_block": "末影珍珠块",
+  "block.compressedblock.ender_pearl_block": "末影珍珠块",
   "block.compressedblock.feather_sack": "袋装羽毛",
   "block.compressedblock.flint_block": "燧石块",
   "block.compressedblock.glowstone_dust_sack": "萤石袋",
@@ -24,6 +24,8 @@
   "block.compressedblock.string_block": "线卷",
   "block.compressedblock.sugar_sack": "袋装糖",
   "block.compressedblock.wheat_seeds_sack": "袋装小麦种子",
+
+  "block.compressedblock.stench_block": "恶臭方块",
 
   "block.compressedblock.bonded_black_wool": "打包黑色羊毛",
   "block.compressedblock.bonded_blue_wool": "打包蓝色羊毛",

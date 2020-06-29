@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "compressedblock:block/ender_pear_block"
+    "all": "compressedblock:block/ender_pearl_block"
   }
 }

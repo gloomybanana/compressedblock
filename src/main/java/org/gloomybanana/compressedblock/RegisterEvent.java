@@ -15,7 +15,7 @@ public class RegisterEvent {
         event.getRegistry().register(AllBlocks.boneSack);
         event.getRegistry().register(AllBlocks.codCrate);
         event.getRegistry().register(AllBlocks.eggCrate);
-        event.getRegistry().register(AllBlocks.enderPearBlock);
+        event.getRegistry().register(AllBlocks.enderPearlBlock);
         event.getRegistry().register(AllBlocks.featherSack);
         event.getRegistry().register(AllBlocks.flintBlock);
         event.getRegistry().register(AllBlocks.glowstoneDustSack);
@@ -28,6 +28,8 @@ public class RegisterEvent {
         event.getRegistry().register(AllBlocks.stringBlock);
         event.getRegistry().register(AllBlocks.sugarSack);
         event.getRegistry().register(AllBlocks.wheatSeedsSack);
+
+        event.getRegistry().register(AllBlocks.stenchBlock);
 
         event.getRegistry().register(AllBlocks.bondedBlackWool);
         event.getRegistry().register(AllBlocks.bondedBlueWool);
@@ -81,7 +83,7 @@ public class RegisterEvent {
         event.getRegistry().register(AllItems.boneSack.setRegistryName(AllBlocks.boneSack.getRegistryName()));
         event.getRegistry().register(AllItems.codCrate.setRegistryName(AllBlocks.codCrate.getRegistryName()));
         event.getRegistry().register(AllItems.eggCrate.setRegistryName(AllBlocks.eggCrate.getRegistryName()));
-        event.getRegistry().register(AllItems.enderPearBlock.setRegistryName(AllBlocks.enderPearBlock.getRegistryName()));
+        event.getRegistry().register(AllItems.enderPearlBlock.setRegistryName(AllBlocks.enderPearlBlock.getRegistryName()));
         event.getRegistry().register(AllItems.featherSack.setRegistryName(AllBlocks.featherSack.getRegistryName()));
         event.getRegistry().register(AllItems.flintBlock.setRegistryName(AllBlocks.flintBlock.getRegistryName()));
         event.getRegistry().register(AllItems.glowstoneDustSack.setRegistryName(AllBlocks.glowstoneDustSack.getRegistryName()));
@@ -94,6 +96,8 @@ public class RegisterEvent {
         event.getRegistry().register(AllItems.stringBlock.setRegistryName(AllBlocks.stringBlock.getRegistryName()));
         event.getRegistry().register(AllItems.sugarSack.setRegistryName(AllBlocks.sugarSack.getRegistryName()));
         event.getRegistry().register(AllItems.wheatSeedsSack.setRegistryName(AllBlocks.wheatSeedsSack.getRegistryName()));
+
+        event.getRegistry().register(AllItems.stenchBlock.setRegistryName(AllBlocks.stenchBlock.getRegistryName()));
 
         event.getRegistry().register(AllItems.bondedBlackWool.setRegistryName(AllBlocks.bondedBlackWool.getRegistryName()));
         event.getRegistry().register(AllItems.bondedBlueWool.setRegistryName(AllBlocks.bondedBlueWool.getRegistryName()));

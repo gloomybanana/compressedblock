@@ -1,10 +1,14 @@
 package org.gloomybanana.compressedblock;
 
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.tileentity.BeaconTileEntity;
 import net.minecraft.util.NonNullList;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ArrowNockEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.items.ItemHandlerHelper;
@@ -16,42 +20,85 @@ import java.util.List;
 public class GameEvent {
 
     @SubscribeEvent
-    public static void onUsingBow(ArrowNockEvent event){
+    public static void onShooting(PlayerInteractEvent.RightClickItem event){
+        ItemStack heldItemMainhand = event.getPlayer().getHeldItemMainhand();
+        ItemStack heldItemOffhand = event.getPlayer().getHeldItemOffhand();
+        if (heldItemMainhand.getTranslationKey().contains("bow")||heldItemOffhand.getTranslationKey().contains("bow")){
+            PlayerEntity player = event.getPlayer();
+            NonNullList<ItemStack> mainInventory = player.inventory.mainInventory;
 
-        PlayerEntity player = event.getPlayer();
-        NonNullList<ItemStack> mainInventory = player.inventory.mainInventory;
 
-        boolean hasArrowSack = false;
-        boolean hasEmptySlot = false;
-        boolean hasArrow = false;
+            boolean hasArrowSack = false;
+            boolean hasEmptySlot = false;
+            boolean hasArrow = false;
 
-        ItemStack lastArrowSack = new ItemStack(Items.AIR);
-        ItemStack arrowStack = new ItemStack(Items.ARROW);
-        arrowStack.setCount(9);
-        ItemStack spectralArrowSack = new ItemStack(Items.SPECTRAL_ARROW);
-        spectralArrowSack.setCount(9);
+            ItemStack lastArrowSack = new ItemStack(Items.AIR);
+            ItemStack arrowStack = new ItemStack(Items.ARROW);
+            arrowStack.setCount(9);
+            ItemStack spectralArrowSack = new ItemStack(Items.SPECTRAL_ARROW);
+            spectralArrowSack.setCount(9);
 
-        for (ItemStack itemStack : mainInventory) {
-            if(itemStack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")||itemStack.getTranslationKey().contentEquals("item.compressedblock.spectral_arrow_sack")){
-                hasArrowSack = true;
-                lastArrowSack = itemStack;
+            for (ItemStack itemStack : mainInventory) {
+                if(itemStack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")||itemStack.getTranslationKey().contentEquals("item.compressedblock.spectral_arrow_sack")){
+                    hasArrowSack = true;
+                    lastArrowSack = itemStack;
+                }
+                if (itemStack.isEmpty()){
+                    hasEmptySlot = true;
+                }
+                if (itemStack.getTranslationKey().contentEquals("item.minecraft.arrow")||itemStack.getTranslationKey().contentEquals("item.minecraft.spectral_arrow")||itemStack.getTranslationKey().contains("item.minecraft.tipped_arrow")){
+                    hasArrow = true;
+
+                }
             }
-            if (itemStack.isEmpty()){
-                hasEmptySlot = true;
-            }
-            if (itemStack.getTranslationKey().contentEquals("item.minecraft.arrow")||itemStack.getTranslationKey().contentEquals("item.minecraft.spectral_arrow")||itemStack.getTranslationKey().contains("item.minecraft.tipped_arrow")){
-                hasArrow = true;
-
-            }
-        }
-        if (hasArrowSack&&hasEmptySlot&&(!hasArrow)){
-            lastArrowSack.setCount(lastArrowSack.getCount()-1);
-            if (lastArrowSack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")){
-                ItemHandlerHelper.giveItemToPlayer(player,arrowStack);
-            }else {
-                ItemHandlerHelper.giveItemToPlayer(player,spectralArrowSack);
+            if (hasArrowSack&&hasEmptySlot&&(!hasArrow)){
+                if (lastArrowSack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")){
+                    ItemHandlerHelper.giveItemToPlayer(player,arrowStack);
+                }else {
+                    ItemHandlerHelper.giveItemToPlayer(player,spectralArrowSack);
+                }
+                lastArrowSack.setCount(lastArrowSack.getCount()-1);
             }
         }
     }
+
+//    @SubscribeEvent
+//    public static void onUsingBow(ArrowNockEvent event){
+//
+//        PlayerEntity player = event.getPlayer();
+//        NonNullList<ItemStack> mainInventory = player.inventory.mainInventory;
+//
+//        boolean hasArrowSack = false;
+//        boolean hasEmptySlot = false;
+//        boolean hasArrow = false;
+//
+//        ItemStack lastArrowSack = new ItemStack(Items.AIR);
+//        ItemStack arrowStack = new ItemStack(Items.ARROW);
+//        arrowStack.setCount(9);
+//        ItemStack spectralArrowSack = new ItemStack(Items.SPECTRAL_ARROW);
+//        spectralArrowSack.setCount(9);
+//
+//        for (ItemStack itemStack : mainInventory) {
+//            if(itemStack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")||itemStack.getTranslationKey().contentEquals("item.compressedblock.spectral_arrow_sack")){
+//                hasArrowSack = true;
+//                lastArrowSack = itemStack;
+//            }
+//            if (itemStack.isEmpty()){
+//                hasEmptySlot = true;
+//            }
+//            if (itemStack.getTranslationKey().contentEquals("item.minecraft.arrow")||itemStack.getTranslationKey().contentEquals("item.minecraft.spectral_arrow")||itemStack.getTranslationKey().contains("item.minecraft.tipped_arrow")){
+//                hasArrow = true;
+//
+//            }
+//        }
+//        if (hasArrowSack&&hasEmptySlot&&(!hasArrow)){
+//            lastArrowSack.setCount(lastArrowSack.getCount()-1);
+//            if (lastArrowSack.getTranslationKey().contentEquals("item.compressedblock.arrow_sack")){
+//                ItemHandlerHelper.giveItemToPlayer(player,arrowStack);
+//            }else {
+//                ItemHandlerHelper.giveItemToPlayer(player,spectralArrowSack);
+//            }
+//        }
+//    }
 
 }

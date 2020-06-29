@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:dyes/yellow"
+      "item": "compressedblock:rotten_flesh_block"
     }
   },
   "result": {
-    "item": "compressedblock:yellow_dye_sack",
+    "item": "compressedblock:stench_block",
     "count": 1
   }
 }

@@ -5,12 +5,13 @@ import org.gloomybanana.compressedblock.block.bondedwool.*;
 import org.gloomybanana.compressedblock.block.dyesack.*;
 
 public class AllBlocks {
+
     public static BeetrootSeedsSack beetrootSeedsSack = new BeetrootSeedsSack();
     public static BlazeRodBlock blazeRodBlock = new BlazeRodBlock();
     public static BoneSack boneSack = new BoneSack();
     public static CodCrate codCrate = new CodCrate();
     public static EggCrate eggCrate = new EggCrate();
-    public static EnderPearBlock enderPearBlock = new EnderPearBlock();
+    public static EnderPearlBlock enderPearlBlock = new EnderPearlBlock();
     public static FeatherSack featherSack = new FeatherSack();
     public static FlintBlock flintBlock = new FlintBlock();
     public static GlowstoneDustSack glowstoneDustSack = new GlowstoneDustSack();
@@ -23,6 +24,8 @@ public class AllBlocks {
     public static StringBlock stringBlock = new StringBlock();
     public static SugarSack sugarSack = new SugarSack();
     public static WheatSeedsSack wheatSeedsSack = new WheatSeedsSack();
+
+    public static StenchBlock stenchBlock = new StenchBlock();
 
     public static BondedBlackWool bondedBlackWool = new BondedBlackWool();
     public static BondedBlueWool bondedBlueWool = new BondedBlueWool();

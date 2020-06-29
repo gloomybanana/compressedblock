@@ -18,7 +18,7 @@ public class AllItems {
     public static BlockItem boneSack = new BlockItem(AllBlocks.boneSack,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem codCrate = new BlockItem(AllBlocks.codCrate,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem eggCrate = new BlockItem(AllBlocks.eggCrate,new Item.Properties().group(ItemGroup.DECORATIONS));
-    public static BlockItem enderPearBlock = new BlockItem(AllBlocks.enderPearBlock,new Item.Properties().group(ItemGroup.DECORATIONS));
+    public static BlockItem enderPearlBlock = new BlockItem(AllBlocks.enderPearlBlock,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem featherSack = new BlockItem(AllBlocks.featherSack,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem flintBlock = new BlockItem(AllBlocks.flintBlock,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem glowstoneDustSack = new BlockItem(AllBlocks.glowstoneDustSack,new Item.Properties().group(ItemGroup.DECORATIONS));
@@ -31,6 +31,8 @@ public class AllItems {
     public static BlockItem stringBlock = new BlockItem(AllBlocks.stringBlock,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem sugarSack = new BlockItem(AllBlocks.sugarSack,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem wheatSeedsSack = new BlockItem(AllBlocks.wheatSeedsSack,new Item.Properties().group(ItemGroup.DECORATIONS));
+
+    public static BlockItem stenchBlock = new BlockItem(AllBlocks.stenchBlock,new Item.Properties().group(ItemGroup.BUILDING_BLOCKS));
 
     public static BlockItem bondedBlackWool = new BlockItem(AllBlocks.bondedBlackWool,new Item.Properties().group(ItemGroup.DECORATIONS));
     public static BlockItem bondedBlueWool = new BlockItem(AllBlocks.bondedBlueWool,new Item.Properties().group(ItemGroup.DECORATIONS));
