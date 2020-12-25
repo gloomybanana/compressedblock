@@ -9,8 +9,8 @@ public class EnderPearlBlock extends Block{
         super(Block.Properties
                 .create(Material.GLASS)
                 .hardnessAndResistance(1.5F)
-                .sound(SoundType.GLASS)
-                .lightValue(7));
+                .sound(SoundType.GLASS).setLightLevel(b -> 8)
+        );
         this.setRegistryName("ender_pearl_block");
     }
 }

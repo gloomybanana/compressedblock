@@ -13,7 +13,8 @@ public class BlazeRodBlock extends RotatedPillarBlock {
                 .create(Material.BAMBOO)
                 .hardnessAndResistance(1.5F)
                 .sound(SoundType.CLOTH)
-                .lightValue(15));
+                .setLightLevel(b -> 15)
+        );
         this.setRegistryName("blaze_rod_block");
     }
 }

@@ -16,7 +16,7 @@ public class CompressedBlock {
 
     public static final String ID = "compressedblock";
     public static final String NAME = "Compressed Block";
-    public static final String VERSION = "1.2c";
+    public static final String VERSION = "1.0";
     public static final Logger LOGGER = LogManager.getLogger();
 
     public CompressedBlock(){
@@ -31,8 +31,6 @@ public class CompressedBlock {
         ComposterBlock.CHANCES.put(AllItems.wheatSeedsSack, 3.0F);
         ComposterBlock.CHANCES.put(AllItems.beetrootSeedsSack,3.0F);
         ComposterBlock.CHANCES.put(AllItems.rottenFleshBlock,3.0F);
-
-
     }
 
 }

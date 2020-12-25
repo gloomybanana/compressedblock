@@ -9,7 +9,8 @@ public class PrismarineCrystalsCrate extends Block{
                 .create(Material.WOOD)
                 .hardnessAndResistance(1.5F)
                 .sound(SoundType.WOOD)
-                .lightValue(10));
+                .setLightLevel(b -> 10)
+        );
         this.setRegistryName("prismarine_crystals_crate");
     }
 }

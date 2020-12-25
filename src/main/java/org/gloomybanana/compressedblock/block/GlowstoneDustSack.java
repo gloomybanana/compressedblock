@@ -9,7 +9,8 @@ public class GlowstoneDustSack extends Block{
                 .create(Material.WOOD)
                 .hardnessAndResistance(0.5F)
                 .sound(SoundType.CLOTH)
-                .lightValue(15));
+                .setLightLevel(b -> 15)
+        );
         this.setRegistryName("glowstone_dust_sack");
     }
 }
